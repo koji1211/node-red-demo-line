@@ -2,7 +2,9 @@
     "name": "demo-line",
     "description": "LINEで通知",
     "version": "0.0.1",
-    "dependencies": {},
+    "dependencies": {
+        "node-red-contrib-line-messaging-api": "0.0.17"
+    },
     "node-red": {
         "settings": {
             "flowFile": "flow.json",
